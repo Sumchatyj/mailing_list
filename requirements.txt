@@ -1,0 +1,4 @@
+Django==3.2.3
+djangorestframework==3.12.4
+requests==2.27.1
+python_dotenv==0.20.0
