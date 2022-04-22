@@ -1,5 +1,5 @@
 # Simple notification service
-##Features
+## Features
 - Creation and managment of your client database;
 - Creation mailing list with certain parameters through a third party service;
 - Open API documentation.
