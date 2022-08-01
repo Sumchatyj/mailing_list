@@ -10,6 +10,14 @@ You can check statistic of your mailings:
 
 ## Getting started
 
+### Dependencies
+
+*Python 3.7
+*Django 3.2.3
+*djangorestframework 3.12.4
+
+### Installing
+
 Clone repository to your working directory.
 In the file *mailing_list/mailing_app/messaging.py* you need to change a third party service token:
 
@@ -39,7 +47,9 @@ Do all migrations, be sure that you are in directory with manage.py:
 python manage.py migrate
 ```
 
-Then just run the server:
+### Executing program
+
+Run the server:
 
 ```
 python manage.py runserver
