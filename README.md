@@ -15,6 +15,7 @@ In the file *mailing_list/mailing_app/messaging.py* you need to change a third p
 Activate your venv:
 
 `$ python3 -m venv venv`
+
 `$ source venv/bin/activate`
 
 Install requirements:
