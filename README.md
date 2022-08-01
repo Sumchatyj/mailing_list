@@ -10,25 +10,37 @@
 Clone repository to your working directory.
 In the file *mailing_list/mailing_app/messaging.py* you need to change a third party service token:
 
-`11. TOKEN = os.getenv("TOKEN")`
+```
+11. TOKEN = os.getenv("TOKEN")
+```
 
 Activate your venv:
 
-`$ python3 -m venv venv`
+```
+$ python3 -m venv venv
+```
 
-`$ source venv/bin/activate`
+```
+$ source venv/bin/activate
+```
 
 Install requirements:
 
-`$ pip install -r requirements.txt`
+```
+$ pip install -r requirements.txt
+```
 
 Do all migrations, be sure that you are in directory with manage.py:
 
-`$ python manage.py migrate`
+```
+$ python manage.py migrate
+```
 
 Then just run the server:
 
-`$ python manage.py runserver`
+```
+$ python manage.py runserver
+```
 
 API documentation available at:
 
