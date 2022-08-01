@@ -1,4 +1,5 @@
 # Simple notification service
+
 ## Features
 - Creation and managment of your client database;
 - Creation mailing list with certain parameters through a third party service;
@@ -11,7 +12,11 @@ In the file *mailing_list/mailing_app/messaging.py* you need to change a third p
 
 `11. TOKEN = os.getenv("TOKEN")`
 
-Activate your venv.
+Activate your venv:
+
+`$ python3 -m venv venv`
+`$ source venv/bin/activate`
+
 Install requirements:
 
 `$ pip install -r requirements.txt`
