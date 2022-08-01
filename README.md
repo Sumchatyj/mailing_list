@@ -12,9 +12,9 @@ You can check statistic of your mailings:
 
 ### Dependencies
 
-*Python 3.7
-*Django 3.2.3
-*djangorestframework 3.12.4
+* Python 3.7
+* Django 3.2.3
+* djangorestframework 3.12.4
 
 ### Installing
 
